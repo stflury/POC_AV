@@ -7,7 +7,9 @@ The following scripts should be created for each dataset
 - Load the data from Stac to the GeoParquet
 The selection area for the POC is "Glarus Süd", as defined in the official cadastral boundaries dataset.
 source: https://www.geodienste.ch/downloads/interlis/av/GL/av_GL_lv95.zip (TABL Gemeindegrenze_Geometrie)
-If the POC is successful, modules for Python and other development environments may follow, as well as support for additional formats such as Interlis. Also try using ogr2ogr to read the data from Stac in Interlis
+If the POC is successful, modules for Python and other development environments may follow, as well as support for additional formats such as Interlis. 
+Also try using ogr2ogr to read the data from Stac in Interlis.
+Also try to read the selection polygon out of the Interlisfile (TABL Gemeindegrenze_Geometrie)
 
 ## Planimetric control Points LFP1 (National Survey)
 https://data.geo.admin.ch/ch.swisstopo.fixpunkte-lfp1/fixpunkte-lfp1/fixpunkte-lfp1_2056_5728.gdb.zip
